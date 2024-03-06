@@ -1,0 +1,42 @@
+<!--
+Author: Mainuddin Alam Irteja
+A#: A00446752
+
+The html file for Assignment 5.
+-->
+
+<!-- Important headers for the html file-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Assignment 5</title>
+  </head>
+  <body>
+    <!-- The header of the html file which contains the controls of the page-->
+    <div class="header">
+      <!--The region which has the radio buttons to change the charts-->
+      <span id="chartField"></span>
+      <!--The region for filtering data based on the week-->
+      <span id="selectDates"></span>
+      <!--The region which has the radio buttons to sort the data-->
+      <span id="sortCharts"></span>
+    </div>
+    <div class="svgArea">
+      <!--Initial title of Chart 1-->
+      <h1 id="title">Weekly Sales of Walmart Store during 05-02-2010</h1>
+      <!--Box containing information for the bar charts-->
+      <div
+        id="floatBox"
+        style="position: absolute; background-color: bisque; z-index: 100px"
+      ></div>
+      <svg id="svgTag"></svg>
+    </div>
+  </body>
+</html>

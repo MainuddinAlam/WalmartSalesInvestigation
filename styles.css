@@ -1,0 +1,52 @@
+/*
+Author: Mainuddin Alam Irteja
+A#: A00446752
+
+The css file for Assignment 5.
+*/
+
+body {
+  background-color: white;
+}
+.header {
+  width: 100%;
+  height: 15vh;
+}
+span {
+  margin-right: 0.5vw;
+  font-size: large;
+}
+span > label {
+  margin-right: 0.5vw;
+}
+select {
+  width: 7%;
+}
+
+input {
+  width: 7%;
+}
+
+#chartField {
+  display: inline-block;
+  width: 26%;
+  height: 11vh;
+  background-color: white;
+}
+#sortCharts {
+  display: inline-block;
+  width: 50%;
+  height: 11vh;
+  background-color: white;
+}
+fieldset {
+  margin: 1vh;
+}
+
+.svgArea {
+  background-color: silver;
+}
+
+h1 {
+  padding: 1em;
+}
